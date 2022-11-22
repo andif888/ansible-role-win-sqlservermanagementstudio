@@ -1,0 +1,17 @@
+---
+# defaults file for ansible-role-win-sqlservermanagementstudio
+
+# @var sql_server_mgmt_extract_dir:description: Extract directory.
+sql_server_mgmt_extract_dir: 'C:\windows\temp\sqlmgmtextract'
+
+# @var sql_server_mgmt_download_url:description: Download URL of the package.
+sql_server_mgmt_download_url: 'https://aka.ms/ssmsfullsetup'
+
+# @var sql_server_mgmt_download_validate_certs:description: Validate SSL certs when downloading.
+sql_server_mgmt_download_validate_certs: yes
+
+# @var sql_server_mgmt_install_exe:description: File name of the installation package.
+sql_server_mgmt_install_exe: 'SSMS-Setup-ENU.exe'
+
+# @var sql_server_mgmt_already_installed_path:description: Path to check if already installed.
+sql_server_mgmt_already_installed_path: 'C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe'
